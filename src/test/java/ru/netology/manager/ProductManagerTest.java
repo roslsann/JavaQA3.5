@@ -10,9 +10,9 @@ import ru.netology.repository.ProductRepository;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ProductMangerTest {
-    static ProductRepository repo = new ProductRepository(); //создал экземпляр репозитория
-    ProductManager manager = new ProductManager(repo); //создал экземпляр менеджера и передал в параметры репозиторий
-    static Product smartphone1 = new Smartphone(1, "S21", 700, "Samsung");//создаю экземпляры товаров
+    static ProductRepository repo = new ProductRepository();
+    ProductManager manager = new ProductManager(repo);
+    static Product smartphone1 = new Smartphone(1, "S21", 700, "Samsung");
     static Product smartphone2 = new Smartphone(5, "iPhone12", 1000, "Apple");
     static Product book1 = new Book(5, "Война и Мир", 1000, "Толстой");
     static Product book2 = new Book(1, "Преступление и наказание", 500, "Достоевский");
