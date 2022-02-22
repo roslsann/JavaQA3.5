@@ -59,12 +59,4 @@ class ProductMangerTest {
         assertArrayEquals(expected, actual);
     }
 
-    /*@Test
-    public void shouldFindTheSameText() {
-        Product[] expected = {book1, book2};
-        Product[] actual = manager.searchBy("Преступление и наказание");
-
-        assertArrayEquals(expected, actual);
-    } */
-
 }
